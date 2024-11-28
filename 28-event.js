@@ -19,7 +19,7 @@ alertPara.addEventListener('click', ()=>{
 // This is Prompt Model
 const promptPara = document.querySelector("#prompt");
 promptPara.addEventListener('click', ()=>{
-    const input = prompt("Please enter number to get Square", 1);
+    const input = prompt("Please enter a number", 1);
     const square = input * input;
     console.log(square);
     alert(square);

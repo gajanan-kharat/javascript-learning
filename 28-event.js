@@ -10,11 +10,13 @@ techSkill.addEventListener('click', ()=>{
     alert("Thi is alert");
 });
 
+// This is alert Model
 const alertPara = document.querySelector("#alert");
 alertPara.addEventListener('click', ()=>{
     alert("This is alert");
 });
 
+// This is Prompt Model
 const promptPara = document.querySelector("#prompt");
 promptPara.addEventListener('click', ()=>{
     const input = prompt("Please enter number to get Square", 1);
@@ -23,6 +25,7 @@ promptPara.addEventListener('click', ()=>{
     alert(square);
 });
 
+// This is Confirm Model
 const confirmPara = document.querySelector("#confirm");
 confirmPara.addEventListener('click', ()=>{
     const confirmResult = confirm("Are you sure, you want to submit information ?");
